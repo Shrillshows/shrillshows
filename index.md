@@ -1,37 +1,93 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/Shrillshows/shrillshows/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Shrillshows/shrillshows/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+<!doctype html>
+<style>
+	body {
+		font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+		text-align: center;
+		margin: 0px;
+	}
+	
+	
+	
+	#logo{
+		
+		color: white;
+		background-color: #640001;
+		display:inline-block;
+		font-size: 80px;
+		font-weight: bold;
+		padding: 8px;
+		margin-bottom: 10px;
+		
+	
+	}
+	#navigation a{
+		color: black;
+		padding: 15px;
+		font-size: 28px;
+	}
+	#navigation a:hover{
+		color: brown;
+	}
+	
+	#image img {
+		margin-top:10px;
+		margin-bottom:10px;
+	}
+	#main{
+		max-width: 1000px;
+		margin: auto;
+		padding: 16px;
+	}
+	#footer {
+		text-align: center;
+		color: grey;
+		padding: 16px;
+	}
+	
+		
+</style>
+<html>
+<head>
+	<title>shrillshows</title>
+</head>
+<body>
+	<div id="top"></div>
+	<div id="logo">Shrillshows</div>
+	<div id="navigation">
+		<a href="#über mich">über mich</a>
+		<a href="#social media">social media</a>
+		<a href="#wichtiges">wichtiges</a>
+	</div>
+	<div id="image">
+		<img src="hintergrung.jpg">
+	</div>
+	
+	<div id="main">
+		<section id="über mich">
+		<h2>Über mich</h2>
+			<p>moin,moin ich bin ein kleiner Hobbystreamer, der sich in vielem, wie zum Beispiel Webdesign ausprobiert. Außerdem bin ich auch in Blender unterwegs und habe schon die ein oder andere Sache modelliert. dazu lade ich viele gelungene Modelle bei instagram und co. hoch.Tja was gibts noch zu wissen, ich bin 14 Jahre alt zocke gerne und bin sehr kreativ. </p>
+			<img src="Blender ferrari 458.png">
+		</section>
+		<section id="social media">
+			<h2>social media</h2>
+			<p>Hauptsächlich bin ich bei Twitch unterwegs aber auch eher selten. Falls ihr meinen Fortschritt mitverfolgen wollt gehts es hier unten zu Discord,Twitch und Instagram</p>
+		  <a href="https://discord.gg/2Q2hvkAGaS">
+			  <button><img src="discord.png"></button>
+			</a>
+			<a href="https://www.twitch.tv/shrillshows">
+			   <button><img src="Twitch.jpg"></button>
+				</a>
+			<a href="https://www.instagram.com/shrillshows/">
+				<button><img src="instagram.jpg"></button>
+			</a>
+		</section>
+		<section id="wichtiges"></section>
+		<h2>Wichtiges</h2>
+		<p>hier werden wichtige Projekte, vergangene Projekte und Ankündigungen stehen. </p>
+		<img src="minecraftbild1.png">
+	</div>
+	<div id="footer">
+	Copyright 2021 | Shrillshows
+	</div>
+	</body>
+</html>
